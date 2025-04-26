@@ -1,0 +1,12 @@
+.map-box{
+    flex: 1;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 255px;
+}
+
+.h2{
+    text-align: center;
+}
