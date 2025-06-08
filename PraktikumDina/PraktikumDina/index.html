@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="tentangsaya.html">Tentang Saya</a></li>
+            <li><a href="portofolio.html">Portofolio</a></li>
+            <li><a href="opini.html">Opini</a></li>
+            
+            <li class="dropdown">
+              <a href="#">Lainnya</a>
+              <div class="dropdown-content">
+                <a href="https://www.instagram.com/dnsyinaa_" target="_blank">Instagram</a>
+                <a href="https://web.facebook.com/dina.s.ningrum.773"target="_blank">Facebook</a>
+                <a href="https://www.tiktok.com/@dnsyinaa" target="_blank">Tiktok</a>
+              </div> 
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section id="beranda" class="beranda">
+            <div class="fotoku">
+                  <img src="WhatsApp Image 2025-04-21 at 16.00.01.jpeg" alt="Dina Setya Ningrum" style="width:250px ; height: 250px; border-radius:50%;">
+            </div>
+            
+            <div class="deskripsi">
+              <h1>Halo, Saya Dina Setya Ningrum</h1>
+              <p> Mahasiswa Teknik Informatika Universitas Nahdlatul Ulama Sunan Giri Bojonegoro.</p>
+            </div>
+        </section>
+        <style>
+            
+          </style>
+          
+          <hr class="garis-pemisah">
+        
+          <head>
+            <style>
+              .kontainer {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                max-width: 600px;
+                margin: 20px auto;
+              }
+          
+              .teks {
+                flex: 1;
+                padding-right: 20px;
+                font-size: 18px;
+              }
+          
+              .foto-profil {
+                width: 250px;
+                border-radius: 9%;
+                margin-left: 2px;
+              }
+            </style>
+          </head>
+          <body>
+          
+            <div class="kontainer">
+              <div class="teks">
+                <h2>Tentang Saya</h2>
+                <p>Lahir di Bojonegoro 21 maret 2006, anak pertama dari dua bersaudara, saya lulusan SMK Negeri Purwosari dengan Jurusan Desain Komunikasi Visual, dan Saya melanjutkan Pendidikan S1 di Universitas Nahdlatul Ulama Sunan Giri Bojonegoro dengan Prodi Teknik Informatika.</p>
+              </div>
+              <img src="dina.jpeg" alt="Foto" class="foto-profil">
+            </div>
+
+
+         
+          <section class="portofolio" id="portofolio">
+        <h2 class="button">Portofolio</h2>
+        <table>
+<thead>
+    <tr>
+        <th>No</th>
+        <th>Nama Kegiatan</th>
+        <th>Waktu Kegiatan</th>
+        <th>Bukti Kegiatan</th>
+        <th>Aksi</th> <!-- Kolom Aksi -->
+    </tr>
+</thead>
+<tbody>
+    <tr>
+                    <td>1</td>
+                    <td>	WorkShop Master of Ceremony</td>
+                    <td>2025</td>
+                    <td><img src='IMG_20240907_194236.jpg' width='100'></td>
+                    <td>
+                        <a href='edit_kegiatan.php?id=19'>Edit</a> | 
+                        <a href='hapus_kegiatan.php?id=19' onclick='return confirm("Apakah Anda yakin ingin menghapus?")'>Hapus</a>
+                    </td>
+                  </tr><tr>
+                    <td>2</td>
+                    <td>PKL di Yanto Garmend and Printing House</td>
+                    <td>2024</td>
+                    <td><img src='IMG20240907134748.jpg' width='100'></td>
+                    <td>
+                        <a href='edit_kegiatan.php?id=32'>Edit</a> | 
+                        <a href='hapus_kegiatan.php?id=32' onclick='return confirm("Apakah Anda yakin ingin menghapus?")'>Hapus</a>
+                    </td>
+                  </tr><tr>
+                    <td>3</td>
+                    <td>Anggota Osis SMK Purwosari</td>
+                    <td>2024</td>
+                    <td><img src='WhatsApp Image 2025-01-19 at 15.50.22.jpeg' width='100'></td>
+                    <td>
+                        <a href='edit_kegiatan.php?id=33'>Edit</a> | 
+                        <a href='hapus_kegiatan.php?id=33' onclick='return confirm("Apakah Anda yakin ingin menghapus?")'>Hapus</a>
+                    </td>
+                    
+                  </tr></tbody>
+
+        </table>
+
+        <!-- Form Tambah Kegiatan -->
+        <h3 class="button" style="margin-top: 30px;">Tambah Kegiatan</h3>
+        <div class="hubungi" style="margin-top: 20px;">
+            <form action="tambah_kegiatan.php" method="POST" enctype="multipart/form-data" class="form-kontak" style="max-width: 500px;">
+                <input type="text" name="nama_kegiatan" placeholder="Nama Kegiatan" required>
+                <input type="text" name="waktu_kegiatan" placeholder="Waktu Kegiatan" required>
+                <input type="file" name="bukti_kegiatan" accept="image/*" required>
+                <button type="submit">Simpan</button>
+            </form>
+        </div>
+    </section>
+              
+            <!-- Tambahkan baris lainnya di sini -->
+          </body>
+        </table>
+  
+</body>
+</html>
+                <!-- Tambahkan baris lainnya di sini -->
+              </body>
+            </table>
+
+      
+
+
+<hr>
+    
+<style>
+
+
+
+
+  footer {
+    background-color: #001f3f; /* biru dongker */
+    color: white;              /* teks putih */
+    text-align: center;
+    padding: 2px 2px;
+    font-family: sans-serif;
+  }
+
+  
+
+  
+</style>
+
+<footer>
+  <p>&copy; copyrigt by@dnsyinaa_</p>
+  
+</footer>
+
+
+
+</body>
+</html>
